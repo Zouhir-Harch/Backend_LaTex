@@ -1,0 +1,113 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\geometry{
+  top=3cm,
+  bottom=3cm,
+  left=3cm,
+  right=3cm
+}
+
+\definecolor{darkblue}{RGB}{0, 51, 102}
+\definecolor{goldcolor}{RGB}{184, 134, 11}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+
+  %% Ligne en haut
+  \begin{tikzpicture}[remember picture, overlay]
+    \draw[darkblue, line width=3pt] (current page.north west) -- (current page.north east);
+    \draw[goldcolor, line width=1pt] ([yshift=-0.3cm]current page.north west) -- ([yshift=-0.3cm]current page.north east);
+  \end{tikzpicture}
+
+  \vspace{2cm}
+
+  %% Titre du document
+  {\fontsize{18}{22}\selectfont \textbf{\textcolor{darkblue}{PAGE DE GARDE}}\par}
+  \vspace{0.5cm}
+  {\fontsize{14}{18}\selectfont \textcolor{goldcolor}{\rule{8cm}{0.5pt}}\par}
+  \vspace{1.5cm}
+
+  %% Titre du projet (si disponible)
+  
+  {\fontsize{16}{20}\selectfont \textbf{\textcolor{darkblue}{Système de Gestion Intelligente des Étudiants}}\par}
+  \vspace{1cm}
+  
+
+  %% Présenté par
+  {\fontsize{13}{16}\selectfont \textcolor{darkblue}{\textbf{Présenté par :}}\par}
+  \vspace{0.3cm}
+  {\fontsize{20}{24}\selectfont \textbf{Mohamed Amine}\par}
+  \vspace{0.2cm}
+
+  %% Etablissement
+  
+  {\fontsize{13}{16}\selectfont \textcolor{darkblue}{\textbf{Établissement :}}\par}
+  \vspace{0.2cm}
+  {\fontsize{14}{18}\selectfont ENSA Oujda\par}
+  \vspace{0.3cm}
+  
+
+  %% Filière
+  
+  {\fontsize{13}{16}\selectfont \textcolor{darkblue}{\textbf{Filière :}}\par}
+  \vspace{0.2cm}
+  {\fontsize{14}{18}\selectfont Génie Informatique\par}
+  \vspace{0.5cm}
+  
+
+  %% Ligne séparatrice
+  {\textcolor{goldcolor}{\rule{6cm}{0.4pt}}\par}
+  \vspace{0.8cm}
+
+  %% Encadrant
+  
+  {\fontsize{13}{16}\selectfont \textcolor{darkblue}{\textbf{Encadré par :}}\par}
+  \vspace{0.3cm}
+  {\fontsize{14}{18}\selectfont Dr. Hassan Benali\par}
+  \vspace{0.5cm}
+  
+
+  %% Jury
+  
+  {\fontsize{13}{16}\selectfont \textcolor{darkblue}{\textbf{Membres du jury :}}\par}
+  \vspace{0.3cm}
+  {\fontsize{13}{16}\selectfont Pr. Youssef Mehdi\par}
+  \vspace{0.15cm}
+  {\fontsize{13}{16}\selectfont Pr. Sarah Bouali\par}
+  \vspace{0.5cm}
+  
+
+  \vfill
+
+  %% Ligne en bas
+  {\textcolor{goldcolor}{\rule{4cm}{0.4pt}}\par}
+  \vspace{0.3cm}
+
+  %% Année
+  {\fontsize{12}{14}\selectfont \textcolor{darkblue}{Année académique : 2024 - 2025}\par}
+
+  \vspace{0.8cm}
+
+  %% Ligne en bas de page
+  \begin{tikzpicture}[remember picture, overlay]
+    \draw[darkblue, line width=3pt] (current page.south west) -- (current page.south east);
+    \draw[goldcolor, line width=1pt] ([yshift=0.3cm]current page.south west) -- ([yshift=0.3cm]current page.south east);
+  \end{tikzpicture}
+
+\end{titlepage}
+
+\end{document}

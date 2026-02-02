@@ -1,0 +1,116 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.1)  1 FEB 2026 14:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"D:/projet_page_garde - Copie/backend/uploads/page-garde-1769952105715.tex"
+(D:/projet_page_garde - Copie/backend/uploads/page-garde-1769952105715.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/latex/base\report.
+cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.
+clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/latex/base\inputen
+c.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/generic/babel\babe
+l.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2101.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtb
+abel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopt
+s.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/generic/babel/loca
+le/fr\babel-french.tex)
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 4320.
+
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/generic/babel-fren
+ch\french.ldf
+Language: french 2025-08-15 v4.0e French support from the babel system
+
+(C:\Users\ZOUHIR HARCHAOUI\AppData\Local\Programs\MiKTeX\tex/generic/babel-fren
+ch\french3.ldf
+Language: french 2025-08-15 v3.7e French support from the babel system
+\FB@stdchar=\count286
+Package babel Info: Making : an active character on input line 273.
+Package babel Info: Making ; an active character on input line 274.
+Package babel Info: Making ! an active character on input line 275.
+Package babel Info: Making ? an active character on input line 276.
+\FBguill@level=\count287
+\FBold@everypar=\toks19
+\FB@Mht=\dimen150
+\mc@charclass=\count288
+\mc@charfam=\count289
+\mc@charslot=\count290
+\std@mcc=\count291
+\dec@mcc=\count292
+\FB@pardim=\dimen151
+\listindentFB=\dimen152
+\descindentFB=\dimen153
+\labelindentFB=\dimen154
+\labelwidthFB=\dimen155
+\leftmarginFB=\dimen156
+\parindentFFN=\dimen157
+\FBfnindent=\dimen158
+)))
+
+! LaTeX Error: File `scalefnt.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
