@@ -7,24 +7,26 @@ const apiRoutes = require('./routes/api');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173'
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 app.use(express.json());
 
-// Servir les fichiers PDF depuis le dossier uploads
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
-// Routes API
 app.use('/api', apiRoutes);
 
-// Health check
 app.get('/health', (req, res) => {
-  res.json({ status: 'OK', message: 'Serveur fonctionne correctement' });
+  res.json({ status: 'OK' });
 });
 
-// Demarrer le serveur
-app.listen(PORT, () => {
-  console.log('Serveur lance sur http://localhost:' + PORT);
+app.get('/', (req, res) => {
+  res.json({ message: 'Backend fonctionne' });
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log('Serveur lance sur port ' + PORT);
 });
